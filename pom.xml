@@ -65,15 +65,6 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
-
-        <!-- RestAssured -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>5.5.0</version>
-            <scope>test</scope>
-        </dependency>
-
         <!-- Hamcrest для матчеров -->
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -89,16 +80,13 @@
             <version>2.35.4</version>
             <scope>compile</scope>
         </dependency>
-
+        <!-- RestAssured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.5.6</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
-
-
     <build>
         <plugins>
             <!-- Плагин компилятора с настройкой Lombok -->
